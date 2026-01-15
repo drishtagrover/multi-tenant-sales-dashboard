@@ -23,6 +23,22 @@ No backend or real authentication is implemented, as per assignment requirements
 - Plain CSS & inline styles (no UI library)
 
 ---
+## Screenshots
+
+### Dashboard
+![Admin](/sales-dash-admin.png)
+![Agent](/sales-dash-agent.png)
+
+### Leads
+![Org A](/leads.png)
+![Org B](/leads-orgB.png)
+
+### Call Logs
+![Org A](/callLogs.png)
+![Org B](/callLogs-orgB.png)
+
+### Settings
+![Admin Only](/settings-ADMIN.png)
 
 ## Features
 
