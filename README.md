@@ -23,22 +23,16 @@ No backend or real authentication is implemented, as per assignment requirements
 - Plain CSS & inline styles (no UI library)
 
 ---
-## Screenshots
-
-### Dashboard
-![Admin](/sales-dash-admin.png)
-![Agent](/sales-dash-agent.png)
-
-### Leads
-![Org A](/leads.png)
-![Org B](/leads-orgB.png)
-
-### Call Logs
-![Org A](/callLogs.png)
-![Org B](/callLogs-orgB.png)
-
-### Settings
-![Admin Only](/settings-ADMIN.png)
+##Screenshots
+| Section     | View        | Preview |
+|------------|-------------|---------|
+| Dashboard  | Admin       | ![Dashboard Admin](public/sales-dash-admin.png) |
+| Dashboard  | Agent       | ![Dashboard Agent](public/sales-dash-agent.png) |
+| Leads      | Org A       | ![Leads Org A](public/leads.png) |
+| Leads      | Org B       | ![Leads Org B](public/leads-orgB.png) |
+| Call Logs  | Org A       | ![Call Logs Org A](public/callLogs.png) |
+| Call Logs  | Org B       | ![Call Logs Org B](public/callLogs-orgB.png) |
+| Settings   | Admin Only  | ![Settings Admin](public/settings-ADMIN.png) |
 
 ## Features
 
