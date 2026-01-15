@@ -64,7 +64,6 @@ function CallLogsList() {
   )
 }
 
-/* ---------- Styles ---------- */
 
 const thStyle = {
   textAlign: "left",
