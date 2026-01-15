@@ -43,7 +43,7 @@ function Settings() {
   )
 }
 
-/* ---------- Reusable Row ---------- */
+/*Reusable Row*/
 
 function SettingRow({ label, value }) {
   return (
