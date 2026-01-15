@@ -138,8 +138,6 @@ function LeadsList() {
   )
 }
 
-/* ---------- Styles ---------- */
-
 const thStyle = {
   textAlign: "left",
   padding: "10px",
