@@ -1,27 +1,30 @@
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import { useAuth } from "../../context/AuthContext"
 
 function Navbar() {
   const { role } = useAuth()
 
+  const linkStyle = ({ isActive }) => ({
+    padding: "8px 14px",
+    borderRadius: "6px",
+    background: isActive ? "#2563eb" : "transparent",
+    color: isActive ? "#fff" : "#333"
+  })
+
   return (
-    <nav style={{ marginBottom: "16px" }}>
-      <Link to="/" style={{ marginRight: "12px" }}>
-        Dashboard
-      </Link>
-
-      <Link to="/leads" style={{ marginRight: "12px" }}>
-        Leads
-      </Link>
-
-      <Link to="/calls" style={{ marginRight: "12px" }}>
-        Call Logs
-      </Link>
+    <nav
+      style={{
+        display: "flex",
+        gap: "10px",
+        marginBottom: "20px"
+      }}
+    >
+      <NavLink to="/" style={linkStyle}>Dashboard</NavLink>
+      <NavLink to="/leads" style={linkStyle}>Leads</NavLink>
+      <NavLink to="/calls" style={linkStyle}>Call Logs</NavLink>
 
       {role === "Admin" && (
-        <Link to="/settings">
-          Settings
-        </Link>
+        <NavLink to="/settings" style={linkStyle}>Settings</NavLink>
       )}
     </nav>
   )
