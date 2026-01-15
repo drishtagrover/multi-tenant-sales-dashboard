@@ -16,7 +16,8 @@ function Navbar() {
       style={{
         display: "flex",
         gap: "10px",
-        marginBottom: "20px"
+        marginBottom: "20px",
+        flexWrap: "wrap"
       }}
     >
       <NavLink to="/" style={linkStyle}>Dashboard</NavLink>
