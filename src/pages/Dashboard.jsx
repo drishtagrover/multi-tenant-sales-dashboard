@@ -41,7 +41,7 @@ function Dashboard() {
   )
 }
 
-/* ---------- Card Component ---------- */
+/*Card Component*/
 
 function SummaryCard({ title, value, color }) {
   return (
