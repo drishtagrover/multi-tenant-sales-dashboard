@@ -1,5 +1,12 @@
+import CallLogsList from "../components/calls/CallLogsList"
+
 function CallLogs() {
-  return <h2>Call Logs</h2>
+  return (
+    <div>
+      <h2>Call Logs</h2>
+      <CallLogsList />
+    </div>
+  )
 }
 
 export default CallLogs

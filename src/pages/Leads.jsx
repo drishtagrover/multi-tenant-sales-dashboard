@@ -1,5 +1,14 @@
+import LeadsList from "../components/leads/LeadsList"
+
 function Leads() {
-  return <h2>Leads</h2>
+  console.log("LEADS PAGE RENDERED")
+
+  return (
+    <div>
+      <h2>Leads Module</h2>
+      <LeadsList />
+    </div>
+  )
 }
 
 export default Leads
